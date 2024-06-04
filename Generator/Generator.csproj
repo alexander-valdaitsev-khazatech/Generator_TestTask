@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Common\Common.csproj" />
+
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.4.0" PrivateAssets="all" />
+		<PackageReference Include="NHibernate" Version="5.5.1" />
+		<PackageReference Include="Npgsql" Version="8.0.3" />
+		<PackageReference Include="SqlKata" Version="2.4.0" />
+		<PackageReference Include="SqlKata.Execution" Version="2.4.0" />
+	</ItemGroup>
+</Project>
